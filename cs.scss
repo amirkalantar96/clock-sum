@@ -1,0 +1,61 @@
+:root {
+    --body-bg-white: #faf9f6;
+    --box-bg-gray: #e5e4e2;
+}
+@font-face {
+    font-family: "yekan";
+    src: url("font/yekan-regular.woff");
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "yekan";
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6em;
+    width: 100%;
+    background-color: var(--body-bg-white);
+    /* now we move the .clock class to the center of the boy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+}
+.clock {
+    width: 50%;
+    background-color: var(--box-bg-gray);
+    border-radius: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .clock {
+        width: 90%;
+    }
+}
+form {
+    padding: 0.75em 1.0625em;
+}
+fieldset {
+    padding: 0.625em;
+}
+[type = text] {
+    border: none;
+    text-align: center;
+    padding: 0.3000em;
+    margin: 0.2250em;
+    border-radius: 5px;
+}
+#result {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0.3125em 0;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}

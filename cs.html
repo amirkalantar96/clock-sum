@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="ltr">
+    <head>
+        <title>پروژه جمع ساعت</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="cs.css" type="text/css" />
+    </head>
+    <body>
+        <div class="clock">
+            <form autocomplete="off">
+                <fieldset>
+                    <legend>ساعت اول</legend>
+                    <label for="firstHour">ساعت</label>&nbsp;
+                    <input type="text" name="firstHour" id="firstHour"
+                    size="5" maxlength="2" placeholder="۰ - ۲۳" />
+                    <br />
+                    <label for="firstMinute">دقیقه</label>&nbsp;
+                    <input type="text" name="firstMinute" id="firstMinute"
+                    size="5" maxlength="2" placeholder="۰ - ۵۹" />
+                </fieldset>
+                <fieldset>
+                    <legend>ساعت دوم</legend>
+                    <label for="secondHour">ساعت</label>&nbsp;
+                    <input type="text" name="secondHour" id="secondHour"
+                    size="5" maxlength="2" placeholder="۰ - ۲۳" />
+                    <br />
+                    <label for="secondMinute">دقیقه</label>&nbsp;
+                    <input type="text" name="secondMinute" id="secondMinute"
+                    size="5" maxlength="2" placeholder="۰ - ۵۹" />
+                </fieldset>
+                <output id="result" name="result"></output>
+            </form>
+        </div>
+        <script src="cs.js" type="text/javascript"></script>
+    </body>
+</html>
