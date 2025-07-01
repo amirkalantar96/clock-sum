@@ -6,9 +6,21 @@
 ## How does it work?
 1. Open Terminal.
 2. Change the current working directory to the location where you want the cloned directory.
-3. Copy bellow command in to terminal
-  `git clone (https://github.com/amirkalantar96/clock-sum.git)`
-4. s
+3. Copy bellow command in to terminal\
+  ```
+  git clone https://github.com/amirkalantar96/clock-sum.git
+
+  ```
+4. Press Enter to create your local clone.
+  ```
+  $ git clone https://github.com/amirkalantar96/clock-sum.git
+  > Cloning into `Spoon-Knife`...
+  > remote: Counting objects: 10, done.
+  > remote: Compressing objects: 100% (8/8), done.
+  > remove: Total 10 (delta 1), reused 10 (delta 1)
+  > Unpacking objects: 100% (10/10), done.
+
+  ```
 
 ## The technologies:
 - HTML5
