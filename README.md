@@ -25,10 +25,10 @@
   Receiving objects: 100% (28/28), 28.53 KiB | 411.00 KiB/s, done.
   Resolving deltas: 100% (12/12), done.
   ```
-5. Just double-click on ‍‍‍‍`cd.html` to open it in your default browser.
+5. Finally just double-click on ‍‍‍‍`cd.html` to open it in your default browser.
 
 > [!NOTE]
-> 👉 Make sure to use English (0–9) digits in the input boxes.
+> Make sure to use English (0–9) digits in the input boxes.
 
 ## The technologies:
 - HTML5
