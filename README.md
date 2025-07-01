@@ -1,3 +1,17 @@
+# Clock-Sum
+**Calculating the Time Difference Between Two Clocks**
+
+## Description of the project
+
+## How does it work?
+
+## The technologies:
+- HTML5
+- CSS3
+- Sass
+- JavaScript(ES6)
+
+
 This is a small project that made by me.
 This project is made to add two clocks and it can calculate the difference between two clocks.
 This project is made in Farsi language and you can change it to your own language.
