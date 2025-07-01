@@ -13,11 +13,13 @@
 4. Press Enter to create your local clone.
   ```
   $ git clone https://github.com/amirkalantar96/clock-sum.git
-  > Cloning into `Spoon-Knife`...
-  > remote: Counting objects: 10, done.
-  > remote: Compressing objects: 100% (8/8), done.
-  > remove: Total 10 (delta 1), reused 10 (delta 1)
-  > Unpacking objects: 100% (10/10), done.
+  Cloning into 'clock-sum'...
+  remote: Enumerating objects: 28, done.
+  remote: Counting objects: 100% (28/28), done.
+  remote: Compressing objects: 100% (25/25), done.
+  remote: Total 28 (delta 12), reused 11 (delta 2), pack-reused 0 (from 0)
+  Receiving objects: 100% (28/28), 28.53 KiB | 411.00 KiB/s, done.
+  Resolving deltas: 100% (12/12), done.
   ```
 
 ## The technologies:
