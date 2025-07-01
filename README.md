@@ -4,6 +4,11 @@
 ## Description of the project
 
 ## How does it work?
+1. Open Terminal.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Copy bellow command in to terminal
+  `git clone (https://github.com/amirkalantar96/clock-sum.git)`
+4. s
 
 ## The technologies:
 - HTML5
