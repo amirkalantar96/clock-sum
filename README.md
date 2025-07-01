@@ -28,7 +28,7 @@
 5. Finally just double-click on ‍‍‍‍`cd.html` to open it in your default browser.
 
 > [!NOTE]
-> Make sure to use English (0–9) digits in the input boxes.
+> Make sure to use English digits in the input boxes.
 
 ## The technologies:
 - HTML5
